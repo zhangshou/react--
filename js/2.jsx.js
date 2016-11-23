@@ -6,11 +6,12 @@
     使用样式类时只能使用className=类名,因为class是Javascript关键字*/
 
 var names=['梅西','内马尔','苏亚雷斯'];
+var style={backgroundColor:'red'};
 ReactDOM.render(
     <nl>
         {
-            names.map(function (item) {
-                return <li>{item}</li>
+            names.map(function (item,index) {
+                return <li style={style} key={index}>{item}</li>
             })
         }
     </nl>,document.getElementById('app')
