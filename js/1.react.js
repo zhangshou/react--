@@ -1,10 +1,10 @@
 //react.js React
 //react-dom.js ReactDom
-//jsxÊÇÒ»ÖÖ½«jsºÍhtml´úÂë»ìºÏÆğÀ´µÄÒ»ÖÖĞ´·¨
+//jsxæ˜¯ä¸€ç§å°†jså’Œhtmlä»£ç æ··åˆèµ·æ¥çš„ä¸€ç§å†™æ³•
 /*ReactDOM.render(
-    <h1>hello</h1>,
-    document.getElementById('app')
-);*/
+ <h1>hello</h1>,
+ document.getElementById('app')
+ );*/
 
 var count=0;
 function render(ele,container){
