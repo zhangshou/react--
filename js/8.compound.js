@@ -1,6 +1,6 @@
 /*
 * 1.定义初始化状态
-* 2.给input绑定onChange事件,在方法里通过形参event得到event.target.value,从而得到input框的值
+* 2.给input绑定onChange事件,在方法里通过形参event得到event.target.value,
 * */
 var Input=React.createClass({
     getInitialState(){
